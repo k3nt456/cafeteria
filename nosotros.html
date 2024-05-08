@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cafetería</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" type="image/x-icon" href="./build/img/coffee.avif">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="build/css/app.css">
+    </head>
+    <body>
+        <header class="header header-nosotros">
+            <div class="contenedor contenido-header">
+                <div class="barra">
+                    <div class="logo">
+                        <img src="build/img/logo.svg" alt="Logo Cafetería">
+                    </div>
+                    <nav class="nav-principal">
+                        <a href="index.html">Inicio</a>
+                        <a class="activo" href="nosotros.html">Nosotros</a>
+                        <a href="proceso.html">Proceso</a>
+                        <a href="menu.html">Menú</a>
+                        <a href="galeria.html">Galería</a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav>
+                </div>
+                <div class="text-header">
+                    <h1>Una nueva experiencia cada día</h1>
+                </div>
+            </div>
+        </header>
+
+        <main class="contenedor contenido-principal margin-negativo-4">
+            <h2><span>Conoce más </span>sobre nosotros</h2>
+
+            <div class="contenido-nosotros">
+                <div class="imagen">
+                    <picture>
+                        <source
+                            srcset="build/img/nosotros_sidebar.avif"
+                            type="image/avif">
+                        <source
+                            srcset="build/img/nosotros_sidebar.webp"
+                            type="image/webp">
+                        <source
+                            srcset="build/img/nosotros_sidebar.jpg"
+                            type="image/jpeg">
+                        <img loading="lazy" decoding="async"
+                            src="build/img/nosotros_sidebar.jpg"" lazyalt=""
+                            width="500" height="300">
+                    </picture>
+                </div>
+                <div class="texto">
+                    <p>En nuestro rincón acogedor, te esperamos con los mejores aromas y sabores que harán que cada visita sea memorable. Desde nuestro cuidadosamente seleccionado café de especialidad hasta nuestros deliciosos postres caseros, nos esforzamos por ofrecerte una experiencia gastronómica única. ¡Ven y descubre la delicia en cada sorbo y bocado!</p>
+                    <blockquote>¡Atención personalizada!</blockquote>
+                    <p>En nuestra cafetería, no solo servimos café excepcional, también nos preocupamos por brindarte una experiencia personalizada. Nuestro equipo está aquí para satisfacer tus necesidades y hacer que te sientas como en casa. Ya sea que estés buscando una recomendación especial, tengas alguna pregunta sobre nuestros productos o simplemente quieras charlar, estamos aquí para ti. ¡Tu satisfacción es nuestra prioridad número uno!</p>
+
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="contenedor contenido-footer bg-white">
+                <div class="footer-box ubicacion">
+                    <h3>Ubicación</h3>
+                    <p>Calle 01 # 02-03</p>
+                    <p>Barranca, Leticia</p>
+                </div>
+
+                <div class="footer-box reservacion">
+                    <h3>Reservaciones</h3>
+                    <p>Tel: (123) 456-7890</p>
+                    <a href="tel:+51959959959">Llamar</a>
+                </div>
+
+                <div class="footer-box horario">
+                    <h3>Horario</h3>
+                    <p>Lun-Jue: 11:00 - 22:00</p>
+                    <p>Vie-Sab: 09:00 - 24:00</p>
+                    <p>Domingo: Cerrado</p>
+                </div>
+            </div>
+            <p class="copyright">Todos los derechos reservados. La Cafetería</p>
+        </footer>
+    </body>
+</html>
